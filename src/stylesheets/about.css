@@ -1,0 +1,215 @@
+.mainAbout {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../assets/images/texture.jpeg");
+}
+.about1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.aboutPic {
+  width: 100%;
+  height: 650px;
+}
+.overHead {
+  z-index: 20;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+.aboutHead {
+  font-size: 80px;
+  color: black;
+  font-family: Coda;
+  text-align: center;
+}
+.mission {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.about2Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+.about2 {
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  min-height: 400px;
+  background-color: #ECF0F1;
+  justify-content: center;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+.about3Container {
+  width: 100%;
+}
+.about3 {
+  flex-direction: column;
+  width: 80%;
+  min-height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.aboutH3 {
+  margin-bottom: 20px;
+  width: 80%;
+  font-family: BioRhyme;
+}
+.aboutP1 {
+  font-size: ;
+  font-family: Coda;
+  width: 80%;
+}
+.aboutP {
+  font-family: Coda;
+}
+.exec {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  min-height: 400px;
+  margin-bottom: 100px;
+  border: 1px solid silver;
+  background-color: #ECF0F1;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+.execInfo {
+  width: 60%;
+}
+.execInfo {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+.execName {
+  /*color: grey;*/
+  font-family: BioRhyme;
+  font-size: 30px;
+}
+.execBio {
+  font-family: Coda;
+}
+.execTitle {
+  font-family: BioRhyme;
+}
+.execName {
+  margin-top: 70px;
+}
+.execBio {
+  width: 85%;
+}
+.execImage {
+  height: 400px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigText4 {
+  color: black;
+  font-family: Coda;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1300px) {
+  .execInfo {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 1250px) {
+  .execImage2 {
+    height: 250px;
+  }
+  .execName {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 900px) {
+  .execInfo {
+    width: 50%;
+    padding-left: 0px;
+  }
+  .execImage {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .exec {
+    flex-direction: column;
+  }
+  .execImage {
+    width: 100%;
+  }
+  .execInfo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+  }
+  .execBio {
+    width: 100%;
+  }
+  .execName {
+    margin-top: 0;
+  }
+  .execImage2 {
+    height: 350px;
+  }
+  .execImage {
+    height: 500px;
+  }
+  .about1 {
+    padding-top: 0;
+  }
+}
+@media (max-width: 725px) {
+  .mission {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .aboutH3 {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .execImage2 {
+    height: 300px;
+  }
+}
+@media (max-width: 550px) {
+  .execImage2 {
+    height: 200px;
+  }
+  .execImage {
+    height: 300px;
+  }
+  .about2Container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .execInfo {
+    height: 350px;
+  }
+  .execName {
+    text-align: center;
+  }
+  .execTitle {
+    text-align: center;
+  }
+}
